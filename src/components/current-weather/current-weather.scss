@@ -1,0 +1,93 @@
+.current-weather {
+  &__temperature {
+    position: relative;
+    display: block;
+    font-size: 100px;
+    margin: 0;
+    margin-right: 50px;
+    color: #fff;
+    > sup {
+      font-size: 25px;
+      top: -70px;
+    }
+  }
+  &__apparent {
+    position: relative;
+    font-size: 12px;
+
+    text-transform: uppercase;
+    sup {
+      font-size: 10px;
+    }
+  }
+  &__major {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  &__img {
+    max-width: 100%;
+  }
+  &__status {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__records {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  &__record {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(163, 212, 247, 0.2);
+    border-radius: 4px;
+    padding: 40px 0;
+    &:first-child {
+      margin-right: 10px;
+    }
+  }
+  &__record-temp {
+    font-size: 25px;
+
+    padding-left: 50px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    sup {
+      font-size: 10px;
+      top: -15px;
+    }
+  }
+  &__date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  &__location {
+    display: flex;
+    align-items: center;
+  }
+  &__additional {
+    background-color: rgba(163, 212, 247, 0.2);
+    border-radius: 4px;
+    padding: 10px;
+  }
+  &__record-time {
+    text-transform: uppercase;
+  }
+}
+.tempMax {
+  background-image: url(../charts/icons/temperature-max.png);
+  background-position: 15px 5px;
+  background-repeat: no-repeat;
+}
+.tempMin {
+  background-image: url(../charts/icons/temperature-min.png);
+  background-position: 15px 5px;
+  background-repeat: no-repeat;
+}

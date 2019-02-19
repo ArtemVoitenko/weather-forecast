@@ -1,0 +1,15 @@
+.input {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(163, 212, 247, 0.2);
+  color: #fff;
+  text-transform: capitalize;
+  &__wrapper {
+    display: flex;
+  }
+  &__submit {
+    width: 50px;
+    padding: 10px;
+    background-color: rgba(163, 212, 247, 0.7);
+  }
+}
